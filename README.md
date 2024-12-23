@@ -14,13 +14,12 @@ Bu proje, Youtube kanalımızda "Onion Mimari" serisi kapsamında detaylı bir �
 
 ### 1. Core (Çekirdek Katman)
 - Bu katman, projenin iş mantığı ve temel kurallarını içerir.
-- Altyazılardan edinilen bilgiye göre, bu katman aynı zamanda bağımlılıkları en aza indirerek, tüm sistemi merkezden yönetir.
+- Bu katman aynı zamanda bağımlılıkları en aza indirerek, tüm sistemi merkezden yönetir.
 - İçeriğinde veri modelleri (Entities) ve iş kurallarına yönelik soyutlamalar (Interfaces) bulunmaktadır.
 
 ### 2. Infrastructure (Altyapı Katmanı)
 - Soyutlamaların implementasyonlarını içerir.
 - Veritabanı işlemleri ve dış sistemlerle entegrasyonlar bu katmanda yer alır.
-- Özellikle altyazıda bahsedilen "Repository Pattern" gibi yapıların örnekleri bu katmanda bulunur.
 
 ### 3. Presentation (Sunum Katmanı)
 - Kullanıcı ile etkileşim kurulan katmandır.
@@ -29,7 +28,6 @@ Bu proje, Youtube kanalımızda "Onion Mimari" serisi kapsamında detaylı bir �
 ### 4. Contract (Sözleşme Katmanı)
 - Verilerin taşınmasını ve katmanlar arasındaki etkileşimi standart hale getirir.
 - DTO’lar (Data Transfer Objects) ve diğer sözleşmeler burada yer alır.
-- Altyazıda, "somut sınıflara geçiş" kısmında detaylandırılmıştır.
 
 ## Gereksinimler
 Projenin çalıştırılabilmesi için aşağıdaki araçların yüklü olması gerekmektedir:
