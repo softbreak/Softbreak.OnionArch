@@ -9,7 +9,8 @@ Bu proje, Youtube kanalımızda "Onion Mimari" serisi kapsamında detaylı bir �
 1. [Bölüm 1: Onion Mimari Nedir? Katmanlı Yazılım Yapıları](https://youtu.be/97vwRWysViE?si=IUvTKEyBMKiGdImu)
 2. [Bölüm 2: Proje Oluşturma ve Uygulamalı Tasarım](https://youtu.be/evRBFPShuJA?si=fZw2dGB2sjq4_wt3)
 3. [Bölüm 3: Contract Katmanından Somut Sınıflara Geçiş](https://youtu.be/_9FiqFQrw4A?si=-gFein7sM4ULSlLi)
-
+4. [Bölüm 4: Onion Mimari DTO ve Katmanlar Arası Soyutlama](https://youtu.be/A9_rpsi2KHc)
+   
 💡 **Proje serisi Youtube kanalımızda güncellenmeye devam edecektir. Yeni bölümler için takipte kalın!**
 
 ### 1. Core (Çekirdek Katman)
