@@ -13,7 +13,7 @@ namespace Softbreak.OnionArch.APPLICATION.Managers
     {
         Task<List<T>> GetAllAsync();
         Task<T> GetByIdAsync(int id);
-        Task<IQueryable<T>> WhereAsyc(Expression<Func<D, bool>> exp);
+        Task<IQueryable<T>> WhereAsync(Expression<Func<D, bool>> exp);
         Task<T> FirstOrDefaultAsync(Expression<Func<D, bool>> exp);
         bool AnyAsync(Expression<Func<D, bool>> exp);
 
