@@ -15,7 +15,8 @@ namespace Softbreak.OnionArch.Persistence.Repositories
     {
         readonly MyContext _context;
 
-        protected BaseRepository(MyContext context)
+       
+        public BaseRepository(MyContext context)
         {
             _context = context;
         }
@@ -54,9 +55,9 @@ namespace Softbreak.OnionArch.Persistence.Repositories
 
 
 
-        public async Task UpdateAsync(T entity)
+        public async Task UpdateAsync(T originalEntity,T newEntity)
         {
-            _context.Set<T>().Update(entity);
+            _context.Set<T>().Entry(originalEntity).CurrentValues.SetValues(newEntity);
             await _context.SaveChangesAsync();
         }
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Softbreak.OnionArch.CONTRACT.Repositories
 {
-    public interface IProfileRepository:IRepository<AppUserProfile>
+    public interface IAppUserProfileRepository:IRepository<AppUserProfile>
     {
     }
 }

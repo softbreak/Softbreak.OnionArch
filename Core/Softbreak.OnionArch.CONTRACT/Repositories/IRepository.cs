@@ -17,7 +17,7 @@ namespace Softbreak.OnionArch.CONTRACT.Repositories
         Task<bool> AnyAsync(Expression<Func<T, bool>> exp);
 
         Task CreateAsync(T entity);
-        Task UpdateAsync(T entity);
+        Task UpdateAsync(T originalEntity,T newEntity);
         Task DeleteAsync(T entity);
      
 
